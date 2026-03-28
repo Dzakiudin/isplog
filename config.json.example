@@ -1,0 +1,35 @@
+{
+  "promised_download_mbps": 20,
+  "promised_upload_mbps": 20,
+  "test_interval_minutes": 30,
+  "threshold_percentage": 80,
+  "retry_attempts": 3,
+  "retry_wait_seconds": 30,
+  "uptime_check": {
+    "ping_host": "8.8.8.8",
+    "custom_host": "",
+    "http_url": "https://www.google.com",
+    "timeout_seconds": 5
+  },
+  "telegram": {
+    "enabled": false,
+    "bot_token": "",
+    "chat_id": ""
+  },
+  "email": {
+    "enabled": false,
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "username": "",
+    "password": "",
+    "to_address": ""
+  },
+  "desktop_notification": {
+    "enabled": true
+  },
+  "api": {
+    "enabled": true,
+    "host": "127.0.0.1",
+    "port": 8080
+  }
+}
